@@ -1,0 +1,369 @@
+\relax 
+\providecommand*\new@tpo@label[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{Definitions/mdpi}
+\citation{fevgas2022coverage}
+\citation{c46}
+\citation{chen2021clustering}
+\citation{c16}
+\citation{lewis2017semi}
+\citation{wang2017curvature}
+\citation{c2}
+\citation{coombes2019flight}
+\citation{wilson2019novel}
+\citation{maini2022online}
+\citation{c11}
+\citation{dubins1957curves}
+\newmarginnote{note.1.1}{{1}{10945661sp}}
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Coverage path planning (CPP) of multiple Dubins robots has been extensively applied in aerial monitoring, marine exploration, and search and rescue.}}{1}{section*.1}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Dubins}}{1}{section*.2}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{of known environments}}{1}{section*.3}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{exact Dubins MCPP (EDM)}}{1}{section*.4}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{based on}}{1}{section*.5}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{ searches the entire solution space to obtain the shortest Dubins coverage path.}}{1}{section*.6}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{credit-based Dubins MCPP (CDM)}}{1}{section*.7}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{1}{section*.8}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{1}{section*.9}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{1}{section*.10}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{1}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {0}Introduction}{1}{section.0}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{As one subproblem of robot path planning,}}{1}{section*.12}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{aims to determine}}{1}{section*.13}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CPP is common to several applications, including}}{1}{section*.14}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Due to the limited sensing range, calculating speed, and energy supply, many practical coverage applications cannot be achieved by a single robot \cite  {chen2021clustering}. Thus, a series of multi-robot CPP (MCPP) algorithms have been proposed to improve coverage efficiency and enhance robustness. Meanwhile, MCPP faces the challenges of algorithmic complexity and logistical management \cite  {c16}.}}{1}{section*.15}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{ The CPP problem's complexity depends on factors such as the complexity of the environments, and the kinematic constraints of robots \cite  {lewis2017semi}. In general, a robot with nonholonomic constraints is more challenging to plan than one with holonomic constraints \cite  {wang2017curvature}, and an obstacle-constrained environment is more involved in planning than one without obstacles \cite  {c2}.}}{1}{section*.16}\protected@file@percent }
+\citation{munoz2021multi}
+\citation{rekleitis2008efficient}
+\citation{c29}
+\citation{c30}
+\citation{c31}
+\citation{yu2020balanced}
+\citation{yu2020balanced}
+\citation{khan2017complete}
+\citation{li2022complete}
+\citation{Rafael2022Exact}
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Real-world MCPP applications, such as aerial monitoring \cite  {coombes2019flight}, marine exploration\cite  {wilson2019novel}, and automatic farming \cite  {maini2022online}\cite  {c11}, typically involve multiple aerial (fixed-wing aircraft), ground (wheel robots), and autonomous underwater/surface vehicles. These vehicles are typically governed by the Dubins vehicle model \cite  {dubins1957curves}, which allows them to move at a fixed speed and turn with a limited turning radius. As the foundation of many practical applications, MCPP oriented to Dubins robots (Dubins MCPP) has received growing attention in recent years. Thus, this paper focuses on the Dubins MCPP problem of known environments.}}{2}{section*.17}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{Utilizing multiple robots can reduce coverage time and increase robustness \cite  {munoz2021multi}. However, multi-robot CPP (}}{2}{section*.18}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{2}{section*.19}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP (EDM)}}{2}{section*.20}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{ multi-robot}}{2}{section*.21}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{(CDM)}}{2}{section*.22}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.23}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{2}{section*.24}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.25}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{2}{section*.26}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{based on MILP, which provides the shortest Dubins coverage path by searching the entire solution space.}}{2}{section*.27}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.28}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{2}{section*.29}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.30}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{2}{section*.31}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.32}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{2}{section*.33}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{2}{section*.34}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.35}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{2}{section*.36}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{2}{section*.37}\protected@file@percent }
+\citation{c39}
+\citation{matic2014mixed}
+\citation{sundar2017algorithms}
+\citation{chlebikova1996approximating}
+\citation{matic2014mixed}
+\citation{c39}
+\citation{chen2021clustering}
+\citation{yu2020balanced}
+\citation{vandermeulen2019turn}
+\citation{yu2015optimization}
+\citation{yu2015optimization}
+\citation{c41}
+\citation{li2022complete}
+\citation{c46}
+\citation{gabriely2001spanning}
+\citation{hazon2005redundancy}
+\citation{zheng2005multi}
+\citation{c39}
+\citation{c1}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Related Work}{3}{section.1}\protected@file@percent }
+\newlabel{Sec_Related_Work}{{1}{3}{Related Work}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Exact and heuristic MCPP methods}{3}{subsection.1.1}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Some exact algorithms precisely divide the region into $K$ partitions and apply a single-robot coverage algorithm to each partition.}}{3}{section*.38}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{\cite  {chlebikova1996approximating} proves that $BCP_q$ is NP-hard and proposes a polynomial-time algorithm that solves $BCP_2$ within an approximation ratio of $\frac  {4}{3}$. \cite  {matic2014mixed} proposes an accurate MILP for two robots, which can solve graphs of 70 nodes within two hours. However, the MILP is difficult to extend to cases with $q \geq 3$. The work }}{3}{section*.39}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{the $MinMax$ balanced and connected $q$-partition problem (}}{3}{section*.40}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{)}}{3}{section*.41}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Other exact works build exact formations based on MILP to generate the shortest or fastest paths.}}{3}{section*.42}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{\cite  {chen2021clustering}\cite  {yu2020balanced} produces the fastest coverage paths by building exact formulations. However, both works calculate the coverage time of a given region based on the scanning area rather than the coverage path. In fact, the coverage time of a given region depends on the time to cover the scanning area and the time to perform turns. Since turns are often costly for mobile robots, neglecting the cost of turns usually reduces the efficiency \cite  {vandermeulen2019turn}. In order to minimize the cost of turns, the work \cite  {yu2015optimization} divides the region into cells and represents cells as a graph. The Dubins MCPP problem is formulated with the graph representation as a generalized traversal salesman problem (TSP). The exact coverage path is then obtained by applying the GTSP solver. Unfortunately, the work \cite  {yu2015optimization} is only applicable to a single robot.}}{3}{section*.43}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{proposed an exact formulation to address the coverage problem for scattered regions. This formulation model MCPP as a $MinMax$ problem for balancing robot coverage times. However, this formulation does not apply to practical coverage applications since it does not consider robot kinetics. Several works models the optimal coverage problem as the $MinMax$ balanced and connected $q$-partition problem ($BCP_q$) and present various methods to resolve it.}}{3}{section*.44}\protected@file@percent }
+\citation{wang2017curvature}
+\citation{vselek2022smooth}
+\citation{khan2017complete}
+\citation{dubins1957curves}
+\citation{c12}
+\citation{xu2011optimal}
+\citation{xu2011optimal}
+\citation{yu2015optimization}
+\citation{yu2015optimization1}
+\citation{yu2015optimization}
+\citation{lewis2017semi}
+\citation{karapetyan2018multi}
+\citation{lewis2017semi}
+\citation{karapetyan2018multi}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Dubins coverage}{4}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}System Overview}{4}{section.2}\protected@file@percent }
+\newlabel{Sec_Problem_Statement}{{2}{4}{System Overview}{section.2}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{4}{section*.45}\protected@file@percent }
+\citation{c46}
+\citation{c56}
+\citation{c56}
+\citation{c25}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Problem Statement}{5}{subsection.2.1}\protected@file@percent }
+\newlabel{subsec_Problem_Statement}{{2.1}{5}{Problem Statement}{subsection.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  Decomposing the mission environment into cells.\relax }}{5}{figure.caption.46}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{Fig_area_decomposition}{{1}{5}{Decomposing the mission environment into cells.\relax }{figure.caption.46}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{5}{section*.47}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}System Overview}{5}{subsection.2.2}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{5}{section*.49}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  An overview of the Dubins coverage framework.\relax }}{5}{figure.caption.48}\protected@file@percent }
+\newlabel{Fig_framework}{{2}{5}{An overview of the Dubins coverage framework.\relax }{figure.caption.48}{}}
+\citation{c16}
+\citation{yu2015optimization}
+\citation{c46}
+\citation{yu2015optimization}
+\citation{c46}
+\citation{c16}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{6}{section*.50}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{6}{section*.51}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{6}{section*.52}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{6}{section*.53}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{The EDM algorithm}}{6}{section*.54}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{proposes an exact formation based on MILP. The MILP solver is used to produce the optimal Dubins coverage path by thoroughly searching the solution space.}}{6}{section*.55}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{The CDM algorithm}}{6}{section*.56}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{6}{section*.57}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{6}{section*.58}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubin Multi-robot CPP (EDM)}}{6}{section*.59}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Exact \replaced {Dubin Multi-robot CPP (EDM)}{Multi-robot Dubin CPP (EMD)} Algorithm}{6}{section*.59}\protected@file@percent }
+\newlabel{Sec_EMD}{{3}{6}{Exact \replaced {Dubin Multi-robot CPP (EDM)}{Multi-robot Dubin CPP (EMD)} Algorithm}{section*.59}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{either provide an accurate partition or produce coverage paths without considering the turning cost of the robot covering a given region, resulting in a non-optimal coverage path. This paper presents an EDM algorithm to plan coverage paths. The EDM algorithm consists of two steps: graph representation and build MILP. The former step is to calculate the Dubins paths for covering coverage cells and turning from one cell to another. All Dubins paths will be represented as a connected graph. The latter step generates an exact formulation based on MILP to obtain the shortest Dubins coverage path.}}{6}{section*.60}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Graph Representation}{6}{subsection.3.1}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Classical offline coverage methods decompose the region into cells and represent cells into a graph \cite  {c16}. With the graph representation, the MCPP problem is transformed into TSP or Chinest Postman Problem to obtain the fastest or shortest path \cite  {yu2015optimization}\cite  {c46}. As most offline MCPP methods do, the EDM algorithm divides the mission environment}}{6}{section*.61}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{As mentioned before, the mission environment has been divided}}{6}{section*.62}\protected@file@percent }
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Different from the graph presented in \cite  {yu2015optimization}\cite  {c46}\cite  {c16}, $E$ consists of the Dubins paths for the robot turning and covering the cell.}}{6}{section*.63}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Graph representation. (a) Endpoints of each cell. (b) Coverage paths of each cell. (c) Graph.\relax }}{6}{figure.caption.64}\protected@file@percent }
+\newlabel{Fig_graph_representation}{{3}{6}{Graph representation. (a) Endpoints of each cell. (b) Coverage paths of each cell. (c) Graph.\relax }{figure.caption.64}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  The start pose $v_i:(x_i,y_i,\theta _i)$ and target pose $v_j:(x_j,y_j,\theta _j)$.\relax }}{7}{figure.caption.65}\protected@file@percent }
+\newlabel{Fig_pose}{{4}{7}{The start pose $v_i:(x_i,y_i,\theta _i)$ and target pose $v_j:(x_j,y_j,\theta _j)$.\relax }{figure.caption.65}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Build MILP}{7}{subsection.3.2}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{7}{section*.66}\protected@file@percent }
+\newlabel{Eq.objective}{{1}{7}{Build MILP}{equation.3.1}{}}
+\newlabel{Eq.c2}{{2}{7}{Build MILP}{equation.3.2}{}}
+\newlabel{Eq.c3}{{3}{7}{Build MILP}{equation.3.3}{}}
+\newlabel{Eq.c4}{{4}{7}{Build MILP}{equation.3.4}{}}
+\newlabel{Eq.c5}{{5}{7}{Build MILP}{equation.3.5}{}}
+\newlabel{Eq.c6}{{6}{7}{Build MILP}{equation.3.6}{}}
+\newlabel{Eq.c7}{{7}{7}{Build MILP}{equation.3.7}{}}
+\citation{miller1960integer}
+\citation{bixby2007gurobi}
+\citation{frieze1982worst}
+\citation{c25}
+\citation{li2022complete}
+\newlabel{Eq.c8}{{8}{8}{Build MILP}{equation.3.8}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{8}{section*.67}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Pseudo-code of the \replaced {EDM}{EMD} algorithm}{8}{section*.67}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{8}{section*.68}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{8}{section*.69}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces EDM Algorithm\relax }}{8}{algorithm.1}\protected@file@percent }
+\newlabel{alg:EMD Algorithm}{{1}{8}{EDM Algorithm\relax }{algorithm.1}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{8}{section*.70}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubin Multi-robot CPP(CDM)}}{8}{section*.71}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4} Heuristic Credit-based \replaced {Dubin Multi-robot CPP(CDM)}{Multi-robot Dubin CPP (CMD)} Algorithm}{8}{section*.71}\protected@file@percent }
+\newlabel{Sec_CMD}{{4}{8}{ Heuristic Credit-based \replaced {Dubin Multi-robot CPP(CDM)}{Multi-robot Dubin CPP (CMD)} Algorithm}{section*.71}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{8}{section*.72}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{8}{section*.73}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Initial Partition}{8}{subsection.4.1}\protected@file@percent }
+\citation{c1}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  Graph representation. (a) The input map. (b) Coverage cells. (c) The connected graph.\relax }}{9}{figure.caption.74}\protected@file@percent }
+\newlabel{Fig_4}{{5}{9}{Graph representation. (a) The input map. (b) Coverage cells. (c) The connected graph.\relax }{figure.caption.74}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces An example of the initial partition for three robots.\relax }}{9}{figure.caption.75}\protected@file@percent }
+\newlabel{Fig_5}{{6}{9}{An example of the initial partition for three robots.\relax }{figure.caption.75}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Partition Refinement}{9}{subsection.4.2}\protected@file@percent }
+\citation{c56}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  An example of the tree-partition strategy. (a) The graphs of the seller and buyer. (b) The adjacent vertex $v_m$. (c) Three subtrees with the root $v_m$ in the seller. (d) The buyer and seller after the task transcation.\relax }}{10}{figure.caption.76}\protected@file@percent }
+\newlabel{Fig_6}{{7}{10}{An example of the tree-partition strategy. (a) The graphs of the seller and buyer. (b) The adjacent vertex $v_m$. (c) Three subtrees with the root $v_m$ in the seller. (d) The buyer and seller after the task transcation.\relax }{figure.caption.76}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{\ref {Fig_6}}}{10}{section*.77}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Path Planning}{10}{subsection.4.3}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{\ref {Fig_7}}}{10}{section*.78}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{10}{section*.79}\protected@file@percent }
+\citation{c25}
+\citation{frieze1982worst}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  (a) Initial partition. (b) Partition refinement. (c) Path Planning.\relax }}{11}{figure.caption.80}\protected@file@percent }
+\newlabel{Fig_7}{{8}{11}{(a) Initial partition. (b) Partition refinement. (c) Path Planning.\relax }{figure.caption.80}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{11}{section*.81}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Pseudo-code of the \replaced {CDM}{CMD} algorithm}{11}{section*.81}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{11}{section*.82}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces CDM Algorithm\relax }}{11}{algorithm.2}\protected@file@percent }
+\newlabel{alg:CMD Algorithm}{{2}{11}{CDM Algorithm\relax }{algorithm.2}{}}
+\citation{UAVsimulated}
+\citation{c39}
+\citation{karapetyan2018multi}
+\citation{c25}
+\citation{bixby2007gurobi}
+\citation{c39}
+\citation{karapetyan2018multi}
+\citation{c39}
+\citation{karapetyan2018multi}
+\citation{c39}
+\citation{karapetyan2018multi}
+\citation{c39}
+\citation{karapetyan2018multi}
+\citation{c39}
+\citation{karapetyan2018multi}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{12}{section*.83}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experiments}{12}{section.5}\protected@file@percent }
+\newlabel{Sec_Experiments}{{5}{12}{Experiments}{section.5}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{12}{section*.84}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{12}{section*.85}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Comparison experiments in small scenes}{12}{subsection.5.1}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{12}{section*.86}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{12}{section*.87}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{12}{section*.88}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  The four point-cloud maps where \replaced {EDM}{EMD} and \replaced {CDM}{CMD} were tested. Each environment is with the size of 10 m $\times $ 10 m $\times $ 10 m. \relax }}{12}{figure.caption.89}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{12}{section*.90}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{12}{section*.91}\protected@file@percent }
+\newlabel{Fig_8}{{9}{12}{The four point-cloud maps where \replaced {EDM}{EMD} and \replaced {CDM}{CMD} were tested. Each environment is with the size of 10 m $\times $ 10 m $\times $ 10 m. \relax }{section*.91}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{12}{section*.101}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{12}{section*.102}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Milpflow and CDM produce relatively concentrated paths for every robot since they allocate a set of connected coverage cells to every robot. In contrast to Milpflow and CDM, EDM and DCRC generate the single-robot coverage path that is not limited in a particular area.}}{12}{section*.103}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{12}{section*.104}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{12}{section*.105}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{The comparison results show that, compared with heuristic DCRC and CDM, Milpflow and EDM provide fewer coverage times by thoroughly searching the solution space. Furthermore, EDM produces the least coverage times in all scenes because it generates the optimal Dubins coverage path rather than the area division provided by Milpflow.}}{12}{section*.106}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Simulation instances with two robots. The first to fourth rows represent the snapshots of coverage paths provided by Milpflow \cite  {c39}, DCRC \cite  {karapetyan2018multi}, \replaced {EDM}{EMD}, and \replaced {CDM}{CMD}, respectively. \relax }}{13}{figure.caption.92}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{13}{section*.93}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{13}{section*.94}\protected@file@percent }
+\newlabel{Fig_8a}{{10}{13}{Simulation instances with two robots. The first to fourth rows represent the snapshots of coverage paths provided by Milpflow \cite {c39}, DCRC \cite {karapetyan2018multi}, \replaced {EDM}{EMD}, and \replaced {CDM}{CMD}, respectively. \relax }{section*.94}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Simulation instances with three robots. The first to fourth rows represent the snapshots of coverage paths provided by Milpflow \cite  {c39}, DCRC \cite  {karapetyan2018multi}, \replaced {EDM}{EMD}, and \replaced {CDM}{CMD}, respectively. \relax }}{13}{figure.caption.95}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{13}{section*.96}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{13}{section*.97}\protected@file@percent }
+\newlabel{Fig_8b}{{11}{13}{Simulation instances with three robots. The first to fourth rows represent the snapshots of coverage paths provided by Milpflow \cite {c39}, DCRC \cite {karapetyan2018multi}, \replaced {EDM}{EMD}, and \replaced {CDM}{CMD}, respectively. \relax }{section*.97}{}}
+\citation{c46}
+\citation{karapetyan2018multi}
+\citation{c25}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces  The comparison of coverage times of Milpflow \cite  {c39}, DCRC \cite  {karapetyan2018multi}, \replaced {EDM}{EMD}, and \replaced {CDM}{CMD}. Fewer coverage times are better. \relax }}{14}{figure.caption.98}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{14}{section*.99}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.100}\protected@file@percent }
+\newlabel{Fig_8c}{{12}{14}{The comparison of coverage times of Milpflow \cite {c39}, DCRC \cite {karapetyan2018multi}, \replaced {EDM}{EMD}, and \replaced {CDM}{CMD}. Fewer coverage times are better. \relax }{section*.100}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Comparison experiments in large scenes}{14}{subsection.5.2}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{14}{section*.107}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.108}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces  Four point cloud maps where \replaced {CDM}{CMD} and DCRC were tested. (a) Multi-cell(34 m $\times $ 50 m $\times $ 10 m); (b) Farm(25 $\times $ 38 m $\times $ 10 m); (c) Rural Quebec(25 m $\times $ 38 m $\times $ 10 m); (d) Cave(34 m $\times $ 45 m $\times $ 10 m);\relax }}{14}{figure.caption.109}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.110}\protected@file@percent }
+\newlabel{Fig_9}{{13}{14}{Four point cloud maps where \replaced {CDM}{CMD} and DCRC were tested. (a) Multi-cell(34 m $\times $ 50 m $\times $ 10 m); (b) Farm(25 $\times $ 38 m $\times $ 10 m); (c) Rural Quebec(25 m $\times $ 38 m $\times $ 10 m); (d) Cave(34 m $\times $ 45 m $\times $ 10 m);\relax }{section*.110}{}}
+\@writefile{loc}{\contentsline {added}{Added: \truncate {\Changestruncatewidth }{Fig.\ref {Fig_9a} and \ref {Fig_9b} demonstrate snapshots of coverage paths generated by DCRC and CDM for 3 and 6 robots, respectively. These snapshots show that the CDM algorithm provides a set of connected cells for every robot, while a single robot's coverage cells in DCRC may be disconnected. Paths between disconnected cells probably revisit the covered area, which increases the coverage time. Indeed, as illustrated in Fig.\ref {Fig_9c}, the CDM algorithm provides fewer coverage times than DCRC in most experiments.}}{14}{section*.111}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.112}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.113}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.114}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.115}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.116}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.117}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{14}{section*.118}\protected@file@percent }
+\@writefile{loc}{\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{Fig.\ref {Fig_9a} and \ref {Fig_9b} demonstrate snapshots of coverage paths generated by DCRC and \replaced {CDM}{CMD} for 3 and 6 robots, respectively. DCRC divides the single-robot optimal route into $K$ subpaths, each corresponding to a robot. As shown in the first row of Fig.\ref {Fig_9a} and \ref {Fig_9b}, crossings between subpaths occur in DCRC. In contrast, \replaced {CDM}{CMD} divides the map into $K$ subareas and employs the single-robot Dubins solver \cite  {c25} for each subarea. Thus, each robot's coverage path is clustered within its subarea.}}{14}{section*.119}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces  The comparison of coverage times for four different environments. Less coverage times are better.\relax }}{15}{figure.caption.120}\protected@file@percent }
+\newlabel{Fig_9c}{{14}{15}{The comparison of coverage times for four different environments. Less coverage times are better.\relax }{figure.caption.120}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces  The comparison of computation times for four different environments. Less computation times are better.\relax }}{15}{figure.caption.121}\protected@file@percent }
+\newlabel{Fig_9d}{{15}{15}{The comparison of computation times for four different environments. Less computation times are better.\relax }{figure.caption.121}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces  Coverage paths of DCRC (first row) and \replaced {CDM}{CMD} (second row) with 3 robots.\relax }}{15}{figure.caption.122}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{15}{section*.123}\protected@file@percent }
+\newlabel{Fig_9a}{{16}{15}{Coverage paths of DCRC (first row) and \replaced {CDM}{CMD} (second row) with 3 robots.\relax }{section*.123}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces  Coverage paths of DCRC (first row) and \replaced {CDM}{CMD} (second row) with 6 robots.\relax }}{15}{figure.caption.124}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{15}{section*.125}\protected@file@percent }
+\newlabel{Fig_9b}{{17}{15}{Coverage paths of DCRC (first row) and \replaced {CDM}{CMD} (second row) with 6 robots.\relax }{section*.125}{}}
+\citation{UAVsimulated}
+\bibdata{references}
+\bibcite{fevgas2022coverage}{{1}{2022}{{Fevgas \em  {et~al.}}}{{Fevgas, Lagkas, Argyriou, and Sarigiannidis}}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.126}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.127}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Feasibility experiments of \replaced {EDM}{EMD} and \replaced {CDM}{CMD} }{16}{section*.127}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.128}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.129}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.130}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.131}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.132}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.133}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces  UAV simulated paths of \replaced {EDM}{EMD} with 3 robots.\relax }}{16}{figure.caption.134}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.135}\protected@file@percent }
+\newlabel{Fig_11b}{{18}{16}{UAV simulated paths of \replaced {EDM}{EMD} with 3 robots.\relax }{section*.135}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces  UAV simulated paths of \replaced {CDM}{CMD} with 3 robots.\relax }}{16}{figure.caption.136}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.137}\protected@file@percent }
+\newlabel{Fig_12}{{19}{16}{UAV simulated paths of \replaced {CDM}{CMD} with 3 robots.\relax }{section*.137}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{16}{section.6}\protected@file@percent }
+\newlabel{Sec_Conclusion}{{6}{16}{Conclusion}{section.6}{}}
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.138}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.139}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{16}{section*.140}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{EDM}}{16}{section*.141}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{16}{section*.142}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{CDM}}{16}{section*.143}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{Dubins MCPP}}{16}{section*.144}\protected@file@percent }
+\@writefile{loc}{\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{It is shown that both EDM and CDM can provide smooth and continuous Dubins coverage paths. Comparison experiments with other exact or heuristic algorithms demonstrate that EDM produces the fastest Dubins coverage path in small-scale scenes, and CDM produces less coverage time and shorter computation time than other heuristic algorithms in large-scale scenes. Feasibility experiments show that the results from the simulations and the analysis performed on those results hold for high-fidelity Dubins robotic systems.}}{16}{section*.145}\protected@file@percent }
+\bibcite{c46}{{2}{2018}{{Karapetyan \em  {et~al.}}}{{Karapetyan, Moulton, Lewis, Li, O'Kane, and Rekleitis}}}
+\bibcite{chen2021clustering}{{3}{2021}{{Chen \em  {et~al.}}}{{Chen, Du, Zhang, Han, and Wei}}}
+\bibcite{lewis2017semi}{{4}{2017}{{Lewis \em  {et~al.}}}{{Lewis, Edwards, Benson, Rekleitis, and O'Kane}}}
+\bibcite{wang2017curvature}{{5}{2017}{{Wang \em  {et~al.}}}{{Wang, Jiang, Li, and Sun}}}
+\bibcite{c2}{{6}{2019}{{Kan \em  {et~al.}}}{{Kan, Teng, and Karydis}}}
+\bibcite{coombes2019flight}{{7}{2019}{{Coombes \em  {et~al.}}}{{Coombes, Chen, and Liu}}}
+\bibcite{wilson2019novel}{{8}{2019}{{Wilson \em  {et~al.}}}{{Wilson, Mittal, and Gupta}}}
+\bibcite{maini2022online}{{9}{2022}{{Maini \em  {et~al.}}}{{Maini, Gonultas, and Isler}}}
+\bibcite{c11}{{10}{2019}{{Deng \em  {et~al.}}}{{Deng, Jing, Fu, Huang, Liu, and Shimada}}}
+\bibcite{munoz2021multi}{{11}{2021}{{Mu{\~n}oz \em  {et~al.}}}{{Mu{\~n}oz, L{\'o}pez, Quevedo, Monje, Garrido, and Moreno}}}
+\bibcite{rekleitis2008efficient}{{12}{2008}{{Rekleitis \em  {et~al.}}}{{Rekleitis, New, Rankin, and Choset}}}
+\bibcite{c29}{{13}{2021}{{Tan \em  {et~al.}}}{{Tan, Mohd-Mokhtar, and Arshad}}}
+\bibcite{c30}{{14}{2019}{{Cabreira \em  {et~al.}}}{{Cabreira, Brisolara, and Ferreira~Jr}}}
+\bibcite{c31}{{15}{2020}{{Aggarwal and Kumar}}{{}}}
+\bibcite{yu2020balanced}{{16}{2020}{{Yu \em  {et~al.}}}{{Yu, Jin, Shi, Li, Kang, and Zou}}}
+\bibcite{khan2017complete}{{17}{2017}{{Khan \em  {et~al.}}}{{Khan, Noreen, and Habib}}}
+\bibcite{li2022complete}{{18}{2022}{{Li \em  {et~al.}}}{{Li, Shi, Jin, Kang, Xue, Zhou, Liu, and Yu}}}
+\bibcite{Rafael2022Exact}{{19}{2022}{{Rafael~Marti}}{{}}}
+\bibcite{c39}{{20}{2019}{{Zhou \em  {et~al.}}}{{Zhou, Wang, Ding, Hu, and Shang}}}
+\bibcite{matic2014mixed}{{21}{2014}{{Mati{\'c}}}{{}}}
+\bibcite{sundar2017algorithms}{{22}{2017}{{Sundar and Rathinam}}{{}}}
+\bibcite{chlebikova1996approximating}{{23}{1996}{{Chleb{\'\i }kov{\'a}}}{{}}}
+\bibcite{vandermeulen2019turn}{{24}{2019}{{Vandermeulen \em  {et~al.}}}{{Vandermeulen, Gro{\ss }, and Kolling}}}
+\bibcite{yu2015optimization}{{25}{2015}{{Yu \em  {et~al.}}}{{Yu, Roppel, and Hung}}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {6.0.0.1}\textbf  {Author Contributions:} The work presented here was carried out in collaboration among all authors. All authors have contributed to, seen and approved the manuscript.}{17}{paragraph.6.0.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {6.0.0.2}\textbf  {Acknowledgments:} This work was supported by Science and Technology Innovation 2030 Major Project under Grant No.2020AAA0104802. The work was also supported by National Natural Science Foundation of China (Grant No. 91948303). The authors would like to thank the anonymous reviewers for their valuable suggestions and providing many possible directions for the future work.}{17}{paragraph.6.0.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {6.0.0.3}\textbf  {Conflicts of Interest:} The authors declare no conflict of interest.}{17}{paragraph.6.0.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{17}{paragraph.6.0.0.3}\protected@file@percent }
+\bibcite{c41}{{26}{2019}{{ElGibreen and Youcef-Toumi}}{{}}}
+\bibcite{gabriely2001spanning}{{27}{2001}{{Gabriely and Rimon}}{{}}}
+\bibcite{hazon2005redundancy}{{28}{2005}{{Hazon and Kaminka}}{{}}}
+\bibcite{zheng2005multi}{{29}{2005}{{Zheng \em  {et~al.}}}{{Zheng, Jain, Koenig, and Kempe}}}
+\bibcite{c1}{{30}{2018}{{Zhou \em  {et~al.}}}{{Zhou, Wang, and Ding}}}
+\bibcite{vselek2022smooth}{{31}{2022}{{{\v {S}}elek \em  {et~al.}}}{{{\v {S}}elek, Seder, Brezak, and Petrovi{\'c}}}}
+\bibcite{dubins1957curves}{{32}{1957}{{Dubins}}{{}}}
+\bibcite{c12}{{33}{2018}{{Duckett \em  {et~al.}}}{{Duckett, Pearson, Blackmore, Grieve, Chen, Cielniak, Cleaversmith, Dai, Davis, Fox, et~al.}}}
+\bibcite{xu2011optimal}{{34}{2011}{{Xu \em  {et~al.}}}{{Xu, Viriyasuthee, and Rekleitis}}}
+\bibcite{yu2015optimization1}{{35}{2015}{{Yu}}{{}}}
+\bibcite{karapetyan2018multi}{{36}{2018}{{Karapetyan \em  {et~al.}}}{{Karapetyan, Moulton, Lewis, Li, O'Kane, and Rekleitis}}}
+\bibcite{c56}{{37}{2017{}}{{Lewis \em  {et~al.}}}{{Lewis, Edwards, Benson, Rekleitis, and O'Kane}}}
+\bibcite{c25}{{38}{2017{}}{{Lewis \em  {et~al.}}}{{Lewis, Edwards, Benson, Rekleitis, and O'Kane}}}
+\bibcite{c16}{{39}{2017}{{Karapetyan \em  {et~al.}}}{{Karapetyan, Benson, McKinney, Taslakian, and Rekleitis}}}
+\bibcite{miller1960integer}{{40}{1960}{{Miller \em  {et~al.}}}{{Miller, Tucker, and Zemlin}}}
+\bibcite{bixby2007gurobi}{{41}{2007}{{Bixby}}{{}}}
+\bibcite{frieze1982worst}{{42}{1982}{{Frieze \em  {et~al.}}}{{Frieze, Galbiati, and Maffioli}}}
+\bibcite{UAVsimulated}{{43}{}{{Romero}}{{}}}
+\newlabel{LastPage}{{}{18}{}{page.18}{}}
+\xdef\lastpage@lastpage{18}
+\xdef\lastpage@lastpageHy{18}
+\expandafter\ifx\csname c@page@totc\endcsname\relax\newcounter{page@totc}\fi\setcounter{page@totc}{19}
+\gdef \@abspage@last{18}

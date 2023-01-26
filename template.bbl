@@ -1,0 +1,289 @@
+\begin{thebibliography}{999}
+
+\bibitem[Fevgas \em{et~al.}(2022)Fevgas, Lagkas, Argyriou, and
+  Sarigiannidis]{fevgas2022coverage}
+Fevgas, G.; Lagkas, T.; Argyriou, V.; Sarigiannidis, P.
+\newblock Coverage path planning methods focusing on energy efficient and
+  cooperative strategies for unmanned aerial vehicles.
+\newblock {\em Sensors} {\bf 2022}, {\em 22},~1235.
+
+\bibitem[Karapetyan \em{et~al.}(2018)Karapetyan, Moulton, Lewis, Li, O'Kane,
+  and Rekleitis]{c46}
+Karapetyan, N.; Moulton, J.; Lewis, J.S.; Li, A.Q.; O'Kane, J.M.; Rekleitis, I.
+\newblock Multi-robot dubins coverage with autonomous surface vehicles.
+\newblock In Proceedings of the International Conference on Robotics and
+  Automation (ICRA), Brisbane, Australia. IEEE,  2018, pp. 2373--2379.
+
+\bibitem[Chen \em{et~al.}(2021)Chen, Du, Zhang, Han, and
+  Wei]{chen2021clustering}
+Chen, J.; Du, C.; Zhang, Y.; Han, P.; Wei, W.
+\newblock A clustering-based coverage path planning method for autonomous
+  heterogeneous UAVs.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems} {\bf
+  2021}.
+
+\bibitem[Lewis \em{et~al.}(2017)Lewis, Edwards, Benson, Rekleitis, and
+  O'Kane]{lewis2017semi}
+Lewis, J.S.; Edwards, W.; Benson, K.; Rekleitis, I.; O'Kane, J.M.
+\newblock Semi-boustrophedon coverage with a dubins vehicle.
+\newblock In Proceedings of the 2017 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS). IEEE,  2017, pp. 5630--5637.
+
+\bibitem[Wang \em{et~al.}(2017)Wang, Jiang, Li, and Sun]{wang2017curvature}
+Wang, X.; Jiang, P.; Li, D.; Sun, T.
+\newblock Curvature continuous and bounded path planning for fixed-wing UAVs.
+\newblock {\em Sensors} {\bf 2017}, {\em 17},~2155.
+
+\bibitem[Kan \em{et~al.}(2019)Kan, Teng, and Karydis]{c2}
+Kan, X.; Teng, H.; Karydis, K.
+\newblock Multi-robot field exploration in hex-decomposed environments for
+  dubins vehicles.
+\newblock In Proceedings of the 2019 IEEE International Conference on Robotics
+  and Biomimetics (ROBIO), Dali, China. IEEE,  2019, pp. 449--455.
+
+\bibitem[Coombes \em{et~al.}(2019)Coombes, Chen, and Liu]{coombes2019flight}
+Coombes, M.; Chen, W.H.; Liu, C.
+\newblock Flight testing Boustrophedon coverage path planning for fixed wing
+  UAVs in wind.
+\newblock In Proceedings of the 2019 International Conference on Robotics and
+  Automation (ICRA). IEEE,  2019, pp. 711--717.
+
+\bibitem[Wilson \em{et~al.}(2019)Wilson, Mittal, and Gupta]{wilson2019novel}
+Wilson, J.P.; Mittal, K.; Gupta, S.
+\newblock Novel motion models for time-optimal risk-aware motion planning for
+  variable-speed AUVs.
+\newblock In Proceedings of the OCEANS 2019 MTS/IEEE SEATTLE. IEEE,  2019, pp.
+  1--5.
+
+\bibitem[Maini \em{et~al.}(2022)Maini, Gonultas, and Isler]{maini2022online}
+Maini, P.; Gonultas, B.M.; Isler, V.
+\newblock Online coverage planning for an autonomous weed mowing robot with
+  curvature constraints.
+\newblock {\em IEEE Robotics and Automation Letters} {\bf 2022}, {\em
+  7},~5445--5452.
+
+\bibitem[Deng \em{et~al.}(2019)Deng, Jing, Fu, Huang, Liu, and Shimada]{c11}
+Deng, D.; Jing, W.; Fu, Y.; Huang, Z.; Liu, J.; Shimada, K.
+\newblock Constrained heterogeneous vehicle path planning for large-area
+  coverage.
+\newblock In Proceedings of the 2019 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS), Macau, China. IEEE,  2019, pp.
+  4113--4120.
+
+\bibitem[Mu{\~n}oz \em{et~al.}(2021)Mu{\~n}oz, L{\'o}pez, Quevedo, Monje,
+  Garrido, and Moreno]{munoz2021multi}
+Mu{\~n}oz, J.; L{\'o}pez, B.; Quevedo, F.; Monje, C.A.; Garrido, S.; Moreno,
+  L.E.
+\newblock Multi UAV Coverage Path Planning in Urban Environments.
+\newblock {\em Sensors} {\bf 2021}, {\em 21},~7365.
+
+\bibitem[Rekleitis \em{et~al.}(2008)Rekleitis, New, Rankin, and
+  Choset]{rekleitis2008efficient}
+Rekleitis, I.; New, A.P.; Rankin, E.S.; Choset, H.
+\newblock Efficient boustrophedon multi-robot coverage: an algorithmic
+  approach.
+\newblock {\em Annals of Mathematics and Artificial Intelligence} {\bf 2008},
+  {\em 52},~109--142.
+
+\bibitem[Tan \em{et~al.}(2021)Tan, Mohd-Mokhtar, and Arshad]{c29}
+Tan, C.S.; Mohd-Mokhtar, R.; Arshad, M.R.
+\newblock A Comprehensive Review of Coverage Path Planning in Robotics using
+  Classical and Heuristic Algorithms.
+\newblock {\em IEEE Access} {\bf 2021}.
+
+\bibitem[Cabreira \em{et~al.}(2019)Cabreira, Brisolara, and Ferreira~Jr]{c30}
+Cabreira, T.M.; Brisolara, L.B.; Ferreira~Jr, P.R.
+\newblock Survey on coverage path planning with unmanned aerial vehicles.
+\newblock {\em Drones} {\bf 2019}, {\em 3},~4.
+
+\bibitem[Aggarwal and Kumar(2020)]{c31}
+Aggarwal, S.; Kumar, N.
+\newblock Path planning techniques for unmanned aerial vehicles: A review,
+  solutions, and challenges.
+\newblock {\em Computer Communications} {\bf 2020}, {\em 149},~270--299.
+
+\bibitem[Yu \em{et~al.}(2020)Yu, Jin, Shi, Li, Kang, and Zou]{yu2020balanced}
+Yu, X.; Jin, S.; Shi, D.; Li, L.; Kang, Y.; Zou, J.
+\newblock Balanced multi-region coverage path planning for unmanned aerial
+  vehicles.
+\newblock In Proceedings of the 2020 IEEE International Conference on Systems,
+  Man, and Cybernetics (SMC). IEEE,  2020, pp. 3499--3506.
+
+\bibitem[Khan \em{et~al.}(2017)Khan, Noreen, and Habib]{khan2017complete}
+Khan, A.; Noreen, I.; Habib, Z.
+\newblock On Complete Coverage Path Planning Algorithms for Non-holonomic
+  Mobile Robots: Survey and Challenges.
+\newblock {\em Journal of Information Science \& Engineering} {\bf 2017}, {\em
+  33}.
+
+\bibitem[Li \em{et~al.}(2022)Li, Shi, Jin, Kang, Xue, Zhou, Liu, and
+  Yu]{li2022complete}
+Li, L.; Shi, D.; Jin, S.; Kang, Y.; Xue, C.; Zhou, X.; Liu, H.; Yu, X.
+\newblock Complete coverage problem of multiple robots with different
+  velocities.
+\newblock {\em International Journal of Advanced Robotic Systems} {\bf 2022},
+  {\em 19},~17298806221091685.
+
+\bibitem[Rafael~Marti(2022)]{Rafael2022Exact}
+Rafael~Marti, G.R., Ed.
+\newblock {\em Exact and Heuristic Methods in Combinatorial Optimization};
+  Springer: Heidelberger Platz 3, 14197 Berlin, Germany,  2022.
+
+\bibitem[Zhou \em{et~al.}(2019)Zhou, Wang, Ding, Hu, and Shang]{c39}
+Zhou, X.; Wang, H.; Ding, B.; Hu, T.; Shang, S.
+\newblock Balanced connected task allocations for multi-robot systems: an exact
+  flow-based integer program and an approximate tree-based genetic algorithm.
+\newblock {\em Expert Systems with Applications} {\bf 2019}, {\em 116},~10--20.
+
+\bibitem[Mati{\'c}(2014)]{matic2014mixed}
+Mati{\'c}, D.
+\newblock A mixed integer linear programming model and variable neighborhood
+  search for maximally balanced connected partition problem.
+\newblock {\em Applied Mathematics and Computation} {\bf 2014}, {\em
+  237},~85--97.
+
+\bibitem[Sundar and Rathinam(2017)]{sundar2017algorithms}
+Sundar, K.; Rathinam, S.
+\newblock Algorithms for heterogeneous, multiple depot, multiple unmanned
+  vehicle path planning problems.
+\newblock {\em Journal of Intelligent \& Robotic Systems} {\bf 2017}, {\em
+  88},~513--526.
+
+\bibitem[Chleb{\'\i}kov{\'a}(1996)]{chlebikova1996approximating}
+Chleb{\'\i}kov{\'a}, J.
+\newblock Approximating the maximally balanced connected partition problem in
+  graphs.
+\newblock {\em Information Processing Letters} {\bf 1996}, {\em 60},~225--230.
+
+\bibitem[Vandermeulen \em{et~al.}(2019)Vandermeulen, Gro{\ss}, and
+  Kolling]{vandermeulen2019turn}
+Vandermeulen, I.; Gro{\ss}, R.; Kolling, A.
+\newblock Turn-minimizing multirobot coverage.
+\newblock In Proceedings of the 2019 International Conference on Robotics and
+  Automation (ICRA). IEEE,  2019, pp. 1014--1020.
+
+\bibitem[Yu \em{et~al.}(2015)Yu, Roppel, and Hung]{yu2015optimization}
+Yu, X.; Roppel, T.A.; Hung, J.Y.
+\newblock An optimization approach for planning robotic field coverage.
+\newblock In Proceedings of the IECON 2015-41st Annual Conference of the IEEE
+  Industrial Electronics Society. IEEE,  2015, pp. 004032--004039.
+
+\bibitem[ElGibreen and Youcef-Toumi(2019)]{c41}
+ElGibreen, H.; Youcef-Toumi, K.
+\newblock Dynamic task allocation in an uncertain environment with
+  heterogeneous multi-agents.
+\newblock {\em Autonomous Robots} {\bf 2019}, {\em 43},~1639--1664.
+
+\bibitem[Gabriely and Rimon(2001)]{gabriely2001spanning}
+Gabriely, Y.; Rimon, E.
+\newblock Spanning-tree based coverage of continuous areas by a mobile robot.
+\newblock {\em Annals of mathematics and artificial intelligence} {\bf 2001},
+  {\em 31},~77--98.
+
+\bibitem[Hazon and Kaminka(2005)]{hazon2005redundancy}
+Hazon, N.; Kaminka, G.A.
+\newblock Redundancy, efficiency and robustness in multi-robot coverage.
+\newblock In Proceedings of the Proceedings of the 2005 IEEE international
+  conference on robotics and automation. IEEE,  2005, pp. 735--741.
+
+\bibitem[Zheng \em{et~al.}(2005)Zheng, Jain, Koenig, and Kempe]{zheng2005multi}
+Zheng, X.; Jain, S.; Koenig, S.; Kempe, D.
+\newblock Multi-robot forest coverage.
+\newblock In Proceedings of the 2005 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems. IEEE,  2005, pp. 3852--3857.
+
+\bibitem[Zhou \em{et~al.}(2018)Zhou, Wang, and Ding]{c1}
+Zhou, X.; Wang, H.; Ding, B.
+\newblock How Many Robots are Enough: A Multi-Objective Genetic Algorithm for
+  the Single-Objective Time-Limited Complete Coverage Problem.
+\newblock In Proceedings of the IEEE 2018 International Conference on Robotics
+  and Automation (ICRA), Brisbane, Australia. IEEE,  2018, pp. 2380--2387.
+
+\bibitem[{\v{S}}elek \em{et~al.}(2022){\v{S}}elek, Seder, Brezak, and
+  Petrovi{\'c}]{vselek2022smooth}
+{\v{S}}elek, A.; Seder, M.; Brezak, M.; Petrovi{\'c}, I.
+\newblock Smooth Complete Coverage Trajectory Planning Algorithm for a
+  Nonholonomic Robot.
+\newblock {\em Sensors} {\bf 2022}, {\em 22},~9269.
+
+\bibitem[Dubins(1957)]{dubins1957curves}
+Dubins, L.E.
+\newblock On curves of minimal length with a constraint on average curvature,
+  and with prescribed initial and terminal positions and tangents.
+\newblock {\em American Journal of mathematics} {\bf 1957}, {\em 79},~497--516.
+
+\bibitem[Duckett \em{et~al.}(2018)Duckett, Pearson, Blackmore, Grieve, Chen,
+  Cielniak, Cleaversmith, Dai, Davis, Fox, et~al.]{c12}
+Duckett, T.; Pearson, S.; Blackmore, S.; Grieve, B.; Chen, W.H.; Cielniak, G.;
+  Cleaversmith, J.; Dai, J.; Davis, S.; Fox, C.;  et~al.
+\newblock Agricultural robotics: the future of robotic agriculture.
+\newblock {\em arXiv preprint arXiv:1806.06762} {\bf 2018}.
+
+\bibitem[Xu \em{et~al.}(2011)Xu, Viriyasuthee, and Rekleitis]{xu2011optimal}
+Xu, A.; Viriyasuthee, C.; Rekleitis, I.
+\newblock Optimal complete terrain coverage using an unmanned aerial vehicle.
+\newblock In Proceedings of the 2011 IEEE International conference on robotics
+  and automation. IEEE,  2011, pp. 2513--2519.
+
+\bibitem[Yu(2015)]{yu2015optimization1}
+Yu, X.
+\newblock Optimization approaches for a dubins vehicle in coverage planning
+  problem and traveling salesman problems.
+\newblock PhD thesis,  2015.
+
+\bibitem[Karapetyan \em{et~al.}(2018)Karapetyan, Moulton, Lewis, Li, O'Kane,
+  and Rekleitis]{karapetyan2018multi}
+Karapetyan, N.; Moulton, J.; Lewis, J.S.; Li, A.Q.; O'Kane, J.M.; Rekleitis, I.
+\newblock Multi-robot dubins coverage with autonomous surface vehicles.
+\newblock In Proceedings of the 2018 IEEE International Conference on Robotics
+  and Automation (ICRA). IEEE,  2018, pp. 2373--2379.
+
+\bibitem[Lewis \em{et~al.}(2017{\natexlab{a}})Lewis, Edwards, Benson,
+  Rekleitis, and O'Kane]{c56}
+Lewis, J.S.; Edwards, W.; Benson, K.; Rekleitis, I.; O'Kane, J.M.
+\newblock Semi-boustrophedon coverage with a dubins vehicle.
+\newblock In Proceedings of the 2017 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS), Vancouver, BC, USA. IEEE,  2017, pp.
+  5630--5637.
+
+\bibitem[Lewis \em{et~al.}(2017{\natexlab{b}})Lewis, Edwards, Benson,
+  Rekleitis, and O'Kane]{c25}
+Lewis, J.S.; Edwards, W.; Benson, K.; Rekleitis, I.; O'Kane, J.M.
+\newblock Semi-boustrophedon coverage with a dubins vehicle.
+\newblock In Proceedings of the 2017 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS), Vancouver, BC, USA. IEEE,  2017, pp.
+  5630--5637.
+
+\bibitem[Karapetyan \em{et~al.}(2017)Karapetyan, Benson, McKinney, Taslakian,
+  and Rekleitis]{c16}
+Karapetyan, N.; Benson, K.; McKinney, C.; Taslakian, P.; Rekleitis, I.
+\newblock Efficient multi-robot coverage of a known environment.
+\newblock In Proceedings of the 2017 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS), Vancouver, USA. IEEE,  2017, pp.
+  1846--1852.
+
+\bibitem[Miller \em{et~al.}(1960)Miller, Tucker, and Zemlin]{miller1960integer}
+Miller, C.E.; Tucker, A.W.; Zemlin, R.A.
+\newblock Integer programming formulation of traveling salesman problems.
+\newblock {\em Journal of the ACM (JACM)} {\bf 1960}, {\em 7},~326--329.
+
+\bibitem[Bixby(2007)]{bixby2007gurobi}
+Bixby, B.
+\newblock The gurobi optimizer.
+\newblock {\em Transp. Re-search Part B} {\bf 2007}, {\em 41},~159--178.
+
+\bibitem[Frieze \em{et~al.}(1982)Frieze, Galbiati, and
+  Maffioli]{frieze1982worst}
+Frieze, A.M.; Galbiati, G.; Maffioli, F.
+\newblock On the worst-case performance of some algorithms for the asymmetric
+  traveling salesman problem.
+\newblock {\em Networks} {\bf 1982}, {\em 12},~23--39.
+
+\bibitem[Romero()]{UAVsimulated}
+Romero, P.
+\newblock Simulink Drone Reference Application.
+\newblock
+  \url{https://github.com/mathworks/simulinkDroneReferenceApp/releases/tag/v2.1}.
+\newblock 2022.
+
+\end{thebibliography}

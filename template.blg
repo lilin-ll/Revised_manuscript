@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: Definitions/mdpi.bst
+Database file #1: references.bib
+Warning--empty school in yu2015optimization1
+You've used 43 entries,
+            2885 wiz_defined-function locations,
+            797 strings with 12345 characters,
+and the built_in function-call counts, 20520 in all, are:
+= -- 1915
+> -- 1158
+< -- 29
++ -- 509
+- -- 310
+* -- 1573
+:= -- 2980
+add.period$ -- 146
+call.type$ -- 43
+change.case$ -- 43
+chr.to.int$ -- 42
+cite$ -- 44
+duplicate$ -- 974
+empty$ -- 1651
+format.name$ -- 399
+if$ -- 4551
+int.to.chr$ -- 2
+int.to.str$ -- 43
+missing$ -- 41
+newline$ -- 218
+num.names$ -- 130
+pop$ -- 483
+preamble$ -- 0
+purify$ -- 43
+quote$ -- 0
+skip$ -- 701
+stack$ -- 0
+substring$ -- 1149
+swap$ -- 309
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 298
+warning$ -- 1
+while$ -- 169
+width$ -- 0
+write$ -- 549
+(There was 1 warning)
